@@ -16,7 +16,9 @@ public class C {
         sayHi();
     }
     public  C (){
-        System.out.println("这是一只蹦腾的草拟吗");
+        System.out.println("远近高低各不同"+this);
+        System.out.println("搜狗拼音如书法，臭河的用吧 ");
+
     }
 
 }

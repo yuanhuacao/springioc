@@ -18,6 +18,8 @@
 
 import extend.A;
 import extend.B;
+import extend.C;
+import extend.E;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -33,8 +35,8 @@ public class CustomerRepositoryTests {
         BeanFactory applicationContext1 =
                     new ClassPathXmlApplicationContext("applicationContext.xml");
 
-//        A a=applicationContext1.getBean(A.class);
-//        a.sayHello();
+        A a=applicationContext1.getBean(A.class);
+        a.sayHello();
 
 //        B b=applicationContext1.getBean(B.class);
 
@@ -63,6 +65,11 @@ public class CustomerRepositoryTests {
 //        SimpleMetadataReaderFactory simpleMetadataReaderFactory=new SimpleMetadataReaderFactory();
 //        MetadataReader metadataReader=simpleMetadataReaderFactory.getMetadataReader(resource);
 //        System.out.println(metadataReader);
+
+            Integer  x =4;
+            Integer  y=4;
+        System.out.println(x==y);
+
 
 
     }

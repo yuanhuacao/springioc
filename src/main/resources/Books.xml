@@ -1,0 +1,17 @@
+<?xml version="1.0"  encoding="utf-8"?>
+
+<bookStore>
+    <book id="fs" >
+        <name>冰火之歌</name>
+        <price>20</price>
+        <author>乔治.马丁</author>
+    </book>
+    <book>
+        <name>安徒生通货</name>
+        <price>18</price>
+        <author>张大千</author>
+    </book>
+
+</bookStore>
+
+

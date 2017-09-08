@@ -10,11 +10,15 @@
 					    "
 	>
 
+
 	<!--<context:annotation-config></context:annotation-config>-->
-<context:component-scan base-package="extend">
+<context:component-scan base-package="extend"  >
 
 </context:component-scan>
+<context:property-placeholder location="classpath*:*.properties" ></context:property-placeholder>
 
-
+<!--<bean class="extend.A">-->
+	<!--<property name="name" value="小明"></property>-->
+<!--</bean>-->
 
 </beans>
